@@ -1,5 +1,11 @@
 # ToDOM
 
+---
+
+<img src="ToDOM.gif"/>
+
+---
+
 Instructions in `main.js` as inline code to document your functions with.
 
 ### Stretch Goals

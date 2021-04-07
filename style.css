@@ -2,7 +2,6 @@ body {
   background: #f4f6fc;
   
   &:after {
-    content: 'Made with ❤️ by Adiel Hercules';
     position: absolute;
     top: 0;
     right: 0;

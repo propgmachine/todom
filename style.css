@@ -18,7 +18,7 @@ body {
   margin: 40px auto;
   width: 360px;
   height: 780px;
-  background: url("./Buenoboyz.jpg") no-repeat fixed 50% 50%;
+  background: #D0E4F5 url("./Buenoboyz.jpg") no-repeat scroll 0 0;
   border-radius: 40px;
   box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #111;
   
@@ -30,7 +30,7 @@ body {
     transform: translateX(-50%);
   }
   
-  // -homebutton indicator 
+  // home button indicator 
   &:after {
     bottom: 7px;
     width: 140px;
@@ -39,7 +39,7 @@ body {
     border-radius: 10px;
   }
   
-  // -frontal camera/speakerframe 
+  // frontal camera/speaker frame 
   &:before {
     top: 0px;
     width: 56%;
@@ -50,14 +50,13 @@ body {
   
   i,
   b,
-  s,
   span {
     position: absolute;
     display: block;
     color: transparent;
   }
   
-  // -speaker 
+  // speaker 
   i {
     top: 0px;
     left: 50%;
@@ -68,8 +67,8 @@ body {
     border-radius: 8px;
     box-shadow: inset 0px -3px 3px 0px rgba(256, 256, 256, 0.2);
   }
-  
-  // -camera 
+
+  //camera 
   b {
     left: 10%;
     top: 0px;
@@ -94,34 +93,10 @@ body {
       border-radius: 4px;
       box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
     }
-  }
-  
-  // -time
-  s {
-    top: 50px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    font-size: 70px;
-    font-weight: 100;
-    padding-top: 60px;
-  }
-  
-  // -action-buttons 
-  span {
-    bottom: 50px;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
-    left: 30px;
     
-    & + span {
-      left: auto;
-      right: 30px;
-    }
   }
+
+  
 }
 
 h1,
@@ -148,13 +123,6 @@ h1 {
   text-decoration: line-through;
 }
 
-.rusty-mode-btn {
-  background-color: black;
-  color: white;
-  padding: 15px;
-  font-size: 20px;
-}
 
-.rusty-mode {
-  background-image: url('/Rusty.jpg');
-}
+
+
